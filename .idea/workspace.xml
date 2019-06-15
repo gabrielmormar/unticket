@@ -3,21 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="64b72427-1887-43c6-bdea-77ef3cdc5291" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/EventoController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/EventoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/apresentacao/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/apresentacao/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cartao/cadastro.blade.php" afterPath="$PROJECT_DIR$/resources/views/cartao/cadastro.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/evento/cadastro.blade.php" afterPath="$PROJECT_DIR$/resources/views/evento/cadastro.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/evento/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/evento/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/evento/eventos.blade.php" afterPath="$PROJECT_DIR$/resources/views/evento/eventos.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/evento/meus.blade.php" afterPath="$PROJECT_DIR$/resources/views/evento/meus.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/ingresso/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/ingresso/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/ingresso/meus.blade.php" afterPath="$PROJECT_DIR$/resources/views/ingresso/meus.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -713,7 +698,7 @@
       <workItem from="1560091762066" duration="23714000" />
       <workItem from="1560126900535" duration="1558000" />
       <workItem from="1560128761431" duration="681000" />
-      <workItem from="1560608124854" duration="8685000" />
+      <workItem from="1560608124854" duration="8727000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1560127560534</created>
@@ -722,11 +707,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560127560534</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init">
+      <created>1560633817592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560633817592</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66875000" />
+    <option name="totallyTimeSpent" value="66917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1366" height="741" extended-state="6" />
