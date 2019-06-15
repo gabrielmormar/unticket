@@ -1,15 +1,19 @@
-@extends('layouts.template')
+{{--@extends('layouts.template')--}}
+@extends('adminlte::page')
 
 @section('title', 'Eventos disponíveis')
 
-@section('content')
-    <br>
+@section('content_header')
     <h1>Eventos</h1>
+@stop
+
+@section('content')
+
     <div class="box">
         <div class="box-body">
             <table class="table table-bordered table-striped table-hover ">
                 <tr>
-                    <th>Nome</th>git a
+                    <th>Nome</th>
                     <th>Descrição</th>
                     <th>Quantidade</th>
                     <th>Ações</th>
@@ -20,7 +24,7 @@
                         <td>{{$evento->codigo}}</td>
                         <td width="50px">{{$evento->cidade_id}}</td>
                         <td width="250px">
-                            <a href="/apresentacao/{{$evento->id}}" class="btn btn-success">Apresentações</a>
+                            <a href="/apresentacao/{{$evento->id}}" class="btn btn-success">Ver apresentações</a>
                         </td>
                     </tr>
                 @endforeach

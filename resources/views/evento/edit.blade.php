@@ -1,13 +1,13 @@
-@extends('layouts.template')
+{{--@extends('layouts.template')--}}
+@extends('adminlte::page')
 
 @section('title', 'Edite seu Evento')
 
+@section('content_header')
+    <h1>Editar Evento</h1>
+@stop
+
 @section('content')
-
-    <div class="row">
-        <p>Editar Evento</p>
-    </div>
-
     <div class="box">
         <div class="box-body">
             @if (count($errors) > 0)

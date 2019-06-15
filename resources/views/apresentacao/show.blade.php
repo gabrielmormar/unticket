@@ -1,10 +1,14 @@
-@extends('layouts.template')
+{{--@extends('layouts.template')--}}
+@extends('adminlte::page')
 
 @section('title', 'Apresentações disponíveis')
 
+@section('content_header')
+    <h1>Apresentações para o evento</h1>
+@stop
+
 @section('content')
-    <br>
-    <h1>Apresentação</h1>
+
     <div class="box">
         <div class="box-body">
             <table class="table table-bordered table-striped table-hover ">
@@ -24,7 +28,7 @@
                         <td width="50px">{{$apre->quantidade_ingressos}}</td>
                         <td width="50px">{{$apre->preco}}</td>
                         <td width="50">
-                            <a href="/apresentacao/ingresso/{{$apre->id}}" class="btn btn-primary">Ingresso</a>
+                            <a href="/apresentacao/ingresso/{{$apre->id}}" class="btn btn-primary">Comprar ingresso</a>
                         </td>
                     </tr>
                 @endforeach

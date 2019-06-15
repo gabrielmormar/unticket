@@ -1,10 +1,13 @@
-@extends('layouts.template')
+{{--@extends('layouts.template')--}}
+@extends('adminlte::page')
 
 @section('title', 'Ingresso')
 
-@section('content')
-    <br>
+@section('content_header')
     <h1>Comprar ingresso</h1>
+@stop
+
+@section('content')
     <div class="box">
         <div class="box-body">
 

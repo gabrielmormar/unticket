@@ -1,12 +1,13 @@
-@extends('layouts.template')
+@extends('adminlte::page')
+{{--@extends('layouts.template')--}}
 
 @section('title', 'Cadastre seu Evento')
 
-@section('content')
+@section('content_header')
+    <h1>Cadastrar novo evento</h1>
+@stop
 
-    <div class="row">
-        <p>Cadastro de Evento</p>
-    </div>
+@section('content')
 
     <div class="box">
         <div class="box-body">

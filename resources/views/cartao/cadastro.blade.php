@@ -1,6 +1,11 @@
-@extends('layouts.template')
+{{--@extends('layouts.template')--}}
+@extends('adminlte::page')
 
 @section('title', 'Cadastre seu cartão')
+
+@section('content_header')
+    <h1>Cadastrar cartão de crédito</h1>
+@stop
 
 @section('content')
 

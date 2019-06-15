@@ -58,7 +58,8 @@ class EventoController extends Controller
         $apresentacao->evento_id = $evento->id;
         $apresentacao->save();
 
-        return redirect()->action('HomeController@index');
+//        return redirect()->action('HomeController@index');
+        return redirect()->action('HomeController@index')->with('msg', 'Evento cadastrado com sucesso');
 
     }
 

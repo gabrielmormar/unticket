@@ -1,10 +1,13 @@
-@extends('layouts.template')
+{{--@extends('layouts.template')--}}
+@extends('adminlte::page')
 
 @section('title', 'Meus ingressos')
 
+@section('content_header')
+    <h1>Meus ingresso</h1>
+@stop
+
 @section('content')
-    <br>
-    <h2>Meus ingressos</h2>
     <div class="box">
         <div class="box-body">
             <table class="table table-bordered table-striped table-hover ">
